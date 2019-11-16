@@ -1,0 +1,130 @@
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;	   
+}
+
+body{
+   font-family: Tahoma, sans-serif;
+   color: rgb(51,51,51);
+}
+
+.header{
+   margin-top: 10px;
+   padding: 85px 328px;
+   text-align: center;
+   font-size: 10px;
+   font-weight: bold;
+   text-transform: uppercase;
+   line-height: 1.8;
+   /*border: 1px solid navy;*/	
+}
+
+.header span{
+   display: block;
+   /*border: 1px solid navy;*/
+   text-transform: none;
+   font-weight: normal; 	
+}
+
+.main-content{
+   /*border: 1px solid navy;*/
+}
+
+.video{
+   display: inline-block;
+   margin-left: 134px;
+   /*border: 1px solid navy;*/	
+}
+
+.form{
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 56px;
+   margin-left: 32px;
+   width: 353px;
+   height: 298px;
+   border: 5px solid rgb(39, 39, 217);	
+}
+
+.form h3{
+   margin: 26px 72px 22px 72px;	
+}
+
+.form input{
+   display: block;
+   width: 297px;
+   height: 48px;
+   margin: 0px 23px;
+   margin-bottom: 10px;
+   border: 1px solid rgb(51, 51, 51);
+   font-size: 18px;
+   padding-left: 20px;	
+}
+
+.btn{
+   background-color: rgb(39, 39, 217);
+   color: white;
+   width: 297px;
+   height: 65px;
+   border: none;
+   margin: 0px 23px;
+   font-size: 18px;	
+}
+
+.features{
+   text-align: center;	
+}
+
+.features-header{
+   font-size: 10px;
+   font-weight: bold;
+   text-transform: uppercase;
+   
+   /*border: 1px solid navy;*/
+   margin-top: 145px;	
+}
+
+.column{
+   margin-top: 80px;
+   margin-left: 111px;
+   display: inline-block;
+   text-align: center;
+   font-weight: bold;	
+}
+
+.column span{
+   display: block;	
+}
+
+.div-btn{
+   /*border: 1px solid navy;*/
+   margin-top: 96px;
+   margin-bottom: 100px;	
+}
+
+.clients{
+   /*border: 1px solid navy;*/
+}
+
+.clients-header{
+   font-size: 10px;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: center;
+   /*border: 1px solid navy;*/
+   margin-bottom: 70px;	
+}
+
+.photoes{
+   text-align: center;
+   margin-top: 30px;	
+}
+
+.photoes img{
+   	margin-left: 25px;
+}
+
+.clients-footer{
+   height: 95px;	
+}
