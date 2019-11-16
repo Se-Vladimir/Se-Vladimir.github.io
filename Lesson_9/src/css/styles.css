@@ -1,0 +1,100 @@
+
+.s-1{
+   margin: 126px 0px;	
+}
+
+.header-1{
+   margin-bottom: 85px;	
+}
+
+.header-1 h1{
+   font-size: 24px;
+   color: rgb(51,51,51);
+   line-height: 1.5;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.header-1 span{
+   display: block;
+   font-weight: normal;
+   text-transform: none;	
+}
+
+form{
+   border: 5px solid #472cc3;	
+}
+
+form h2{
+   font-size: 20px;
+   color: rgb(51,51,51);
+   font-weight: bold;
+   /*border: 1px solid red;*/
+   margin-top: 32px;
+   margin-bottom: 39px;   	
+}
+
+.form-group{
+   /*border: 1px solid red;*/
+   padding: 0px 16px;	
+}
+
+.form-btn{
+   width: 100%;
+   margin-bottom: 28px;
+   background-color: #472cc3;
+   border-radius: 0px;
+   border: none;
+   height: 64px;	
+}
+
+.form-control{
+   margin-bottom: 10px;
+   border-color: black;
+   border-radius: 0px;	
+}
+
+.s-2 h2{
+   font-size: 24px;
+   color: rgb(51,51,51);
+   margin-bottom: 82px;	
+}
+
+.feature-1 img{
+   margin-bottom: 15px;	
+}
+
+.feature-1 p{
+   font-size: 16px;
+   color: rgb(51,51,51);
+   line-height: 1.0;
+   /*border: 1px solid red;*/
+   margin-bottom: 95px;	
+}
+
+.feature-1 span{
+   display: block;
+   /*border: 1px solid red;*/	
+}
+
+.s-2 .btn{
+   margin-bottom: 95px;	
+}
+
+.s-3 h2{
+   	font-size: 24px;
+   	color: rgb(51,51,51);
+   	margin-bottom: 65px;
+}
+
+.clients-1 img{
+   margin-bottom: 30px;	
+}
+
+.clients-2 img{
+	 margin-bottom: 30px;
+}
+
+.clients-2{
+  margin-bottom: 99px;	
+}
