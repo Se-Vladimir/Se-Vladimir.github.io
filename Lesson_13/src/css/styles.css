@@ -36,7 +36,7 @@ body{
 .main-bg{
   height: 570px;
   width: 570px;
-  background-image: url(/bg.png);
+  background-image: url(/Lesson_13/src/img/bg.png);
 }
 .form{
   margin: auto;
@@ -49,7 +49,7 @@ body{
   height: 368px;
 }
 .input{
-  background-image: url(/bg.png);
+  background-image: url(/Lesson_13/src/img/bg.png);
   margin-left: 19px;
   border: 1px solid rgb(207, 222, 222);
   margin-bottom: 18px;
@@ -65,7 +65,7 @@ body{
   margin-top: 16px;
   height: 46px;
   width: 260px;
-  background-image: url(/btn.png);
+  background-image: url(/Lesson_13/src/img/btn.png);
   border: none;
   font-size: 16px;
   font-family: "Arial";
