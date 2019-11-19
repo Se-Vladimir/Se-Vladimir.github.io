@@ -1,0 +1,85 @@
+body{
+	 box-sizing: content-box;
+}
+.label, .co-password{
+	 display: block;
+}
+.legend{
+	 width: 150px;
+	 height: 25px;
+	 background-color: #01b3b3;
+	 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	 margin-left: 19px;
+	 margin-bottom: 30px;
+}
+.legend p{
+	 font-size: 12px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.3;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.label{
+	 margin-left: 19px;
+	 font-size: 12px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+.label span{
+	 color: #01b3b3;
+}
+.main-bg{
+	 height: 570px;
+	 width: 570px;
+	 background-image: url(img/bg.png);
+}
+.form{
+	 margin: auto;
+	 width: 318px;
+	 padding-top: 88px;
+}
+.fieldset{
+	 background-color: white;
+	 border: 1px solid rgb(207, 222, 222);
+	 height: 368px;
+}
+.input{
+	 background-image: url(img/bg.png);
+	 margin-left: 19px;
+	 border: 1px solid rgb(207, 222, 222);
+	 margin-bottom: 18px;
+	 width: 250px;
+	 height: 30px;
+	 padding-left: 10px;
+}
+.input:focus{
+	 outline: none;
+}
+.btn{
+	 margin-left: 19px;
+	 margin-top: 16px;
+	 height: 46px;
+	 width: 260px;
+	 background-image: url(img/btn.png);
+	 border: none;
+	 font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.btn:focus{
+	 outline: none;
+}
+.email[placeholder="johnsmith@gmail.com"]{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 119, 119);
+  font-style: italic;
+}
