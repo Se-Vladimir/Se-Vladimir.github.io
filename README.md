@@ -24,3 +24,5 @@
 [Модуль 5. Практика. Часть 1](https://se-vladimir.github.io/Modul_5_p1/src/index.html "Описание") - Верстаем шапку сайта
 
 [Урок 14](https://se-vladimir.github.io/Lesson_14/index.html "Описание") - подключение шрифтов
+
+[Модуль 5. Практика. Часть 2](https://se-vladimir.github.io/Modul_5_p2/src/index.html "Описание") - Верстаем первый экран
