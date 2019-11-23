@@ -1,0 +1,170 @@
+/* FONTS FAMILY */
+@font-face {
+  font-family: '../fonts/pn-regular/ProximaNova_reg';
+  src: url('../fonts/pn-regular/ProximaNova-Regular.eot');
+  src: url('../fonts/pn-regular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/pn-regular/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/pn-regular/ProximaNova-Regular.woff') format('woff'), url('../fonts/pn-regular/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/pn-regular/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/pn-bold/ProximaNova-Bold.eot');
+  src: url('../fonts/pn-bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/pn-bold/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/pn-bold/ProximaNova-Bold.woff') format('woff'), url('../fonts/pn-bold/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/pn-bold/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* WORK-SPACE */
+/*.container, .col-md-3, .col-md-2, .col-md-4, .col-md-6{
+	 border: 1px solid black;
+}*/
+/* COLORS */
+/* BASIC SETTINGS */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_reg', sans-serif;
+}
+.button {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #fcb303;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+.button:focus {
+  outline: none;
+}
+/* TYPOGRAPHY */
+section {
+  padding: 10rem 0;
+}
+/* MAIN */
+.main {
+  padding: 3rem 0;
+  background-image: url(/Modul_5_p2/src/img/main-bg.jpg);
+  background-size: 100% 100%;
+  height: 53rem;
+}
+.main-title h1 {
+  font-size: 4rem;
+  color: #292929;
+  font-family: 'ProximaNova_bold', sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.main-title p {
+  font-size: 2.4rem;
+  color: #292929;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+.main-title .span {
+  font-size: 1.8rem;
+  color: #ffffff;
+  line-height: 1.8;
+  padding: 1rem;
+  background-color: #46b814;
+  margin-bottom: 3rem;
+  width: 22rem;
+  height: 10rem;
+  text-align: center;
+}
+.main-form .form {
+  padding: 5rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  background-color: #FFF;
+  width: 35rem;
+}
+.main-form .form .form-header p {
+  font-size: 1.7rem;
+  color: #1a1820;
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.main-form .form .form-header p span {
+  display: block;
+}
+.main-form {
+  margin-top: 3rem;
+}
+.ap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.ap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hh2 {
+  font-size: 2.2rem;
+  color: #292929;
+  font-family: 'ProximaNova_bold', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+/* form */
+.l-text {
+  font-size: 1rem;
+  display: block;
+  color: #565656;
+  position: absolute;
+  -webkit-transform: translate(127%, -50%);
+          transform: translate(127%, -50%);
+  background-color: #fff;
+  border-right: 1rem solid white;
+  border-left: 1rem solid white;
+}
+.l-tel {
+  font-size: 1rem;
+  display: block;
+  color: #565656;
+  position: absolute;
+  -webkit-transform: translate(73%, -50%);
+          transform: translate(73%, -50%);
+  background-color: #fff;
+  border-right: 1rem solid white;
+  border-left: 1rem solid white;
+}
+.text,
+.tel {
+  height: 4.5rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  outline: none;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+.form-btn {
+  height: 5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
