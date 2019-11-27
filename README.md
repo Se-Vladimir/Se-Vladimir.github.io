@@ -30,3 +30,5 @@
 [Урок 15](https://se-vladimir.github.io/Lesson_15/index.html "Описание") - Псевдоклассы и псевдоэлементы
 
 [Модуль 5. Практика. Часть 3](https://se-vladimir.github.io/Modul_5_p3/index.html "Описание") - Эффекты при наведении и адаптив первого экрана
+
+[Урок 15](https://se-vladimir.github.io/Lesson_15/index.html "Описание") - Псевдоклассы и псевдоэлементы
