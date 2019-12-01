@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--подключаем slick.css-->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <title>Document</title>
+</head>
+<body>
+
+   <div class="container">
+   <main class="main">
+   <div class="header">
+    <div class="row boots-r">
+     <div class="col-xl-3 offset-xl-0 col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-12 offset-sm-0 boots-c">
+      <div class="logo">
+       <img src="img/logo.png" alt="Гипсолит. Штукатурка стен">   
+      </div> 
+     </div>
+     <div class="col-xl-2 offset-xl-4 col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-12 offset-sm-0 text-center boots-c">
+      <a href="#" class="phone-link">+7 495 771 05 08</a> 
+     </div>
+     <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 boots-c">
+      <div class="wrap">
+          <div class="wrap-block">
+           <button class="button header-btn">
+            получить консультацию   
+           </button>   
+          </div>
+         </div>    
+     </div> 
+   </div>
+  </div>
+   <div class="content">
+    <div class="row boots-r">
+     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 boots-c">
+      <h1 class="text-uppercase">Автоматизированная штукатурка стен</h1>
+      <p>Идеально ровные стены<br> в кратчайшие сроки</p>
+      <div class="span">  
+           <div class="ap">
+           <div class="ap-block">
+            Cтоимость работ<br>
+            от <strong>300</strong> руб/м<sup>2</sup>   
+           </div>
+          </div> 
+         </div>
+      <h2 class="hh2">оплата по факту!</h2>
+     </div>
+     <div class="col-xl-4 offset-xl-2 col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-12 offset-sm-0 boots-c">
+      <div class="main-form">
+         <form class="form">
+          <div class="form-header">
+           <p>
+            <span>Для расчёта точной стоимости</span>
+            закажите <strong>выезд замерщика</strong>
+           </p> 
+          </div>
+          <label for="name" class="l-text">Ваше имя</label>
+          <input type="text" id="name" name="name" class="text">
+          <label for="tel" class="l-tel">Номер телефона</label>
+          <input type="tel" id="tel" name="tel" class="tel">
+          <button class="button form-btn">
+           оставьте заявку
+          </button>
+          <div class="form-text">
+           <p class="text-center">
+            Приедем в день обращения*  
+           </p> 
+          </div>
+         </form>
+          <p class="text-left underform-text">
+           *-выезды на замер осуществляются<br>
+           в рабочие дни Пн-Пт с 9:00 до 18:00 
+          </p> 
+        </div>
+     </div> 
+  </div>
+  </div>
+  </main>
+  <section class="features">
+   <div class="row boots-r">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 f-header boots-c">
+     <h2 class="features-header text-center">Преимущества работы с нами</h2> 
+    </div>
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 boots-c">
+     <div class="f-my-slider text-center">
+         <div class="coin-S">
+          <img src="img/coin-S.svg" alt="">
+          <p class="p-strong"><strong>Платите по факту</strong></p>
+          <p class="p-norm">Вы оплачиваете выполненные работы только после их выполнения. Никаких скрытых доплат и промежуточных платежей.</p> 
+         </div>
+         <div class="open-folder">
+          <img src="img/open-folder.svg" alt="">
+          <p class="p-strong"><strong>Заключаем договор</strong></p>
+          <p class="p-norm">Перед началом работ заключаем договор на юридическое лицо. Вы можете быть уверены, что все обязательства будут выполнены.</p> 
+         </div>
+         <div class="timing">
+          <img src="img/timing.svg" alt="">
+          <p class="p-strong"><strong>Точно в срок</strong></p>
+          <p class="p-norm">Работаем строго по установленным срокам, которые прописаны в договоре. Если не успеваем, Вы платите меньше.</p> 
+         </div>
+         <div class="piggy-S">
+          <img src="img/piggy-S.svg" alt="">
+          <p class="p-strong"><strong>Экономите на материалах</strong></p>
+          <p class="p-norm">Мы являемся структурным подразделением компании поставщика строительных смесей <a href="">gicema.ru</a>  и даём Вам самые выгодные цены.</p> 
+         </div>
+     </div> 
+    </div>  
+   </div>
+  </section>
+ </div>
+ 
+ <!--Подключаем библиотеку jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <!--Подключаем slick.min.js-->
+    <script src="slick/slick.min.js"></script>
+ <!--Инициализируем slick-slider-->
+    <script>
+     $(document).ready(function(){
+     $('.f-my-slider').slick({
+
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+     {
+       breakpoint: 992,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 1,
+         infinite: true,
+         prevArrow: '<button class="prev"></button>',
+         nextArrow: '<button class="next"></button>'
+       }
+     },
+     {
+       breakpoint: 577,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 1,
+         infinite: true,
+         prevArrow: '<button class="prev"></button>',
+         nextArrow: '<button class="next"></button>'
+       }
+     },
+     {
+       breakpoint: 576,
+       settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         infinite: true,
+         prevArrow: '<button class="prev"></button>',
+         nextArrow: '<button class="next"></button>'
+       }
+     },
+     {
+       breakpoint: 320,
+       settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         infinite: false,
+         prevArrow: '<button class="prev"></button>',
+         nextArrow: '<button class="next"></button>'
+       }
+     }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+      });
+     });
+    </script>
+</body>
+</html>
