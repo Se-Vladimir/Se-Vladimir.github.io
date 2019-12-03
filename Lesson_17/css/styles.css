@@ -1,0 +1,17 @@
+/*BASIC SETTINGS*/
+html{
+	font-size: 10px;
+}
+
+.my-btn{
+	display: block;
+	margin: 25rem auto;
+	color: #fff;
+	height: 7rem;
+	width: 20rem;
+	font-size: 2.5rem;
+	border-radius: 5px;
+}
+.my-btn:hover{
+ color: #000;
+}
