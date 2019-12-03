@@ -34,3 +34,5 @@
 [Урок 16](https://se-vladimir.github.io/Lesson_16/index.html "Описание") - Слайдер на сайте
 
 [Модуль 5. Практика. Часть 4](https://se-vladimir.github.io/Modul_5_p4/index.html "Описание") - Вёрстка блока с преимуществами. Добавление слайдера.
+
+[Урок 17](https://se-vladimir.github.io/Lesson_17/index.html "Описание") - Всплывающие окна PopUps.
